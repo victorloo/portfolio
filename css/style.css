@@ -1,0 +1,197 @@
+html, body {
+  font-family: 'Lato', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+#sidebar {
+  width: 190px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #f5f7f9;
+  padding: 7em 0 0 0;
+  border-right: 1px solid #d6dce0; }
+  #sidebar #logo {
+    width: 40px;
+    position: absolute;
+    right: 3em;
+    top: 3em; }
+    #sidebar #logo img {
+      width: 100%; }
+  #sidebar ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 3em; }
+    #sidebar ul .category {
+      font-weight: 700;
+      font-size: 0.7em;
+      text-transform: uppercase;
+      color: #33acb7; }
+    #sidebar ul li {
+      padding: .5em 0; }
+      #sidebar ul li a {
+        color: #9eafba;
+        text-decoration: none;
+        transition: all .4s ease; }
+        #sidebar ul li a:hover {
+          color: #33acb7; }
+    #sidebar ul li:active a {
+      color: #33acb7; }
+
+.button {
+  outline: none;
+  background: transparent;
+  border: 1px solid #d6dce0;
+  padding: .5em 1.5em;
+  border-radius: 1.5em; }
+  .button:hover {
+    border: 1px solid #33acb7;
+    color: #33acb7; }
+    .button:hover a {
+      color: #33acb7 !important; }
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+#main_content {
+  margin-left: 190px; }
+  #main_content #post_content {
+    padding: 1em 3em;
+    padding-left: 1em; }
+    #main_content #post_content #comments h2 {
+      margin: 3em 0 1em 0;
+      border-bottom: 1px solid #d6dce0;
+      padding-bottom: 0.5em; }
+    #main_content #post_content #comments h3 {
+      margin-top: 2em; }
+    #main_content #post_content #comments .comment {
+      border-bottom: 1px solid #d6dce0;
+      padding: 1.5em 2em; }
+    #main_content #post_content #comments .comment_content {
+      float: left; }
+      #main_content #post_content #comments .comment_content .comment_name {
+        margin: 1em 0 0 0;
+        font-size: 0.7em;
+        text-transform: uppercase; }
+      #main_content #post_content #comments .comment_content .comment_body {
+        font-size: 1.2em;
+        margin: 0.2em 0 0 0; }
+      #main_content #post_content #comments .comment_content .comment_time {
+        margin-top: 1.2em;
+        font-size: .8em; }
+    #main_content #post_content #comments .button {
+      float: right; }
+    #main_content #post_content input[type="text"], #main_content #post_content textarea {
+      width: 50%; }
+
+#about .content blockquote {
+  color: #00bcd4; }
+  #about .content blockquote em {
+    color: #ffc107;
+    background-color: rgba(158, 158, 158, 0.06);
+    font-size: large; }
+#about .content p {
+  text-indent: 50px; }
+#about .content p a {
+  color: #ff9800;
+  background-color: rgba(158, 158, 158, 0.11); }
+  #about .content p a:hover {
+    text-decoration: none; }
+#about .content li a {
+  color: #007bff;
+  background-color: rgba(108, 117, 125, 0.06); }
+  #about .content li a:hover {
+    text-decoration: none; }
+
+#post_content #about, #post_content #experience, #post_content #projects, #post_content #skills, #post_content #education, #post_content #contact {
+  border: 2px solid #deece0;
+  margin-top: 1em; }
+  #post_content #about .content, #post_content #experience .content, #post_content #projects .content, #post_content #skills .content, #post_content #education .content, #post_content #contact .content {
+    border: none;
+    padding: 0 1em;
+    margin: 0 20px; }
+#post_content h1 {
+  background-color: #bbd7ff;
+  margin-top: 0;
+  box-shadow: 0px 3px 15px #A9A9A9;
+  color: #5d6b7f;
+  text-transform: uppercase;
+  padding-left: 10px; }
+#post_content h2 {
+  letter-spacing: .3em;
+  color: rgba(0, 150, 136, 0.8); }
+#post_content #projects .card-group, #post_content #skills .card-group {
+  margin-bottom: 20px; }
+#post_content #projects .card-header a:first-child {
+  margin-left: 15px; }
+#post_content #skills img {
+  width: 5vw; }
+#post_content #skills .card-group p {
+  font-size: 18px; }
+#post_content #skills .card-group .card-header h6 {
+  margin-bottom: 0px; }
+#post_content #education img {
+  width: 10vw;
+  right: 10%;
+  position: absolute; }
+#post_content #education p {
+  word-spacing: .5em;
+  font-size: 16px;
+  color: rgba(109, 65, 49, 0.82); }
+#post_content #education li {
+  font-size: 18px; }
+#post_content #contact a:nth-child(1) {
+  padding: 0.5em;
+  background-color: #b6e8d4;
+  border-radius: 58px;
+  width: 55.5px;
+  height: 55.5px; }
+  #post_content #contact a:nth-child(1) i {
+    color: white; }
+#post_content #contact a:nth-child(2) {
+  font-size: 20px;
+  font-family: 'Courgette', cursive; }
+#post_content #contact a:nth-child(2):hover {
+  color: #b2965f;
+  text-decoration: none; }
+
+.links {
+  margin: 2em 0; }
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 90%;
+  border: 1px solid #d6dce0;
+  border-radius: .35em;
+  margin-top: 10px;
+  padding: .5em 1em;
+  line-height: 1.75; }
+
+input[type="text"] {
+  height: 35px; }
+
+textarea {
+  min-height: 180px; }
+
+input[type="submit"] {
+  outline: none;
+  background: transparent;
+  border: 1px solid #d6dce0;
+  padding: .5em 1.5em;
+  font-size: 1.1em;
+  border-radius: 1.5em;
+  margin-left: .5em; }
+  input[type="submit"]:hover {
+    border: 1px solid #33acb7;
+    color: #33acb7; }
+
+/*# sourceMappingURL=style.css.map */
